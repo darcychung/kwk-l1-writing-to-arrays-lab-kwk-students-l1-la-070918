@@ -5,14 +5,14 @@ RAINBOW_COLORS = [
   ]
   
 def change_rainbow_colors
-RAINBOW[0] = "red"
-rainbow_colors[1] = "light_red"
-rainbow_colors[2] = "light_yellow"
-return rainbow_colors
+RAINBOW_COLORS = "red"
+RAINBOW_COLORS[1] = "light_red"
+RAINBOW_COLORS[2] = "light_yellow"
+return RAINBOW_COLORS
 end
 
 def add_colors
-rainbow_colors.push "green"
-rainbow_colors.push "blue"
-return rainbow_colors
+RAINBOW_COLORS.push "green"
+RAINBOW_COLORS.push "blue"
+return RAINBOW_COLORS
 end

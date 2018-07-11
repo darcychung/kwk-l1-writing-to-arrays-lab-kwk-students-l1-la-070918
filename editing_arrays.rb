@@ -11,7 +11,6 @@ RAINBOW_COLORS[2] = "light_yellow"
 return RAINBOW_COLORS
 end
 
-change_rainbow_colors
 
 def add_colors
 RAINBOW_COLORS << "green"
@@ -19,4 +18,3 @@ RAINBOW_COLORS << "blue"
 return RAINBOW_COLORS
 end
 
-puts add_colors

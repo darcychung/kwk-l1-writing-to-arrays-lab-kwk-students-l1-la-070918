@@ -16,3 +16,5 @@ RAINBOW_COLORS.push "green"
 RAINBOW_COLORS.push "blue"
 return RAINBOW_COLORS
 end
+
+puts add_colors

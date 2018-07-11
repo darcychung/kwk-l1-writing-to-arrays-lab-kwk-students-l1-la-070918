@@ -14,8 +14,8 @@ end
 puts change_rainbow_colors
 
 def add_colors
-RAINBOW_COLORS.push "green"
-RAINBOW_COLORS.push "blue"
+RAINBOW_COLORS << "green"
+RAINBOW_COLORS << "blue"
 return RAINBOW_COLORS
 end
 
